@@ -1,7 +1,7 @@
 const express = require('express');
 const router = express.Router();
-const LocalStorage = require('node-localstorage').LocalStorage;
-const localStorage = new LocalStorage('./scratch');
+// const LocalStorage = require('node-localstorage').LocalStorage;
+// const localStorage = new LocalStorage('../scratch');
 const jwt = require('jsonwebtoken');
 
 var { addReservation, getAllReservations, getReservationByUser, getReservation, deleteReservation, updateReservation, searchByUserEmail, addReservation } = require("../controllers/booking");

@@ -6,8 +6,8 @@ dotenv.config({ path: 'config.env' })
 const bcrypt = require('bcrypt')
 var jwt = require('jsonwebtoken');
 const { log } = require('console');
-const LocalStorage = require('node-localstorage').LocalStorage;
-const localStorage = new LocalStorage('./scratch');
+// const LocalStorage = require('node-localstorage').LocalStorage;
+// const localStorage = new LocalStorage('../scratch');
 
 function createUser(User) {
     return usersModel.create(User)
