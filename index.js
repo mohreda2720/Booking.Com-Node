@@ -2,7 +2,7 @@ const express = require('express');
 const app = express();
 const cors = require('cors');
 const dotenv = require('dotenv');
-dotenv.config({ path: 'config.env' });
+// dotenv.config({ path: 'config.env' });
 const mongoose = require('mongoose');
 const stripe = require ('stripe')('pk_test_51N1oJNAB87pT1j76v4i0wDIhdsHyVzCkxlSwF4CcqbFA9MkLuIhHn76EU0GkDcnRPy1SlqmcaC9ztybp0zNste0700MKFBzuRL');
 const uuid = require ('uuid')
